@@ -49,7 +49,7 @@ globalParameters = OrderedDict()
 # common
 ########################################
 globalParameters["MinimumRequiredVersion"] = "0.0.0"  # which version of tensile is required to handle all the features required by this configuration file
-globalParameters["PrintLevel"] = 1                # how much info to print. 0=none, 1=standard, 2=verbose
+globalParameters["PrintLevel"] = 2                # how much info to print. 0=none, 1=standard, 2=verbose
 # benchmarking
 globalParameters["KernelTime"] = False            # T=use device timers, F=use host timers
 globalParameters["PreciseKernelTime"] = True     # T=On hip, use the timestamps for kernel start and stop rather than separate events.  Can provide more accurate kernel timing.  For GlobalSplitU kernels, recommend disabling this to provide consistent
